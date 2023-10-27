@@ -6,10 +6,10 @@ function displayTemperature(response) {
   let descriptionElement = document.querySelector("#description");
   let iconElement = document.querySelector("#icon");
 
-  temperatureElement.innerHTML = Math.round(response.data.temperature);
+  temperatureElement.innerHTML = Math.round(response.data.temperature.current);
   cityElement.innerHTML = response.data.city;
   descriptionElement.innnerhtml = response.condition.description;
-  iconElement.innerhtml = response.data.condition.icon;
+  iconElement.innerhtml = response.data.condition.icon_url;
 }
 
 let city = "Johannesburg";

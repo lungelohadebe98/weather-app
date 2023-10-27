@@ -6,6 +6,9 @@ h1 {
   height: 27px;
   text-align: center;
 }
+img {
+  width: 50px;
+}
 .weather-app-wrapper {
   max-width: 600px;
   margin: 30px auto;
@@ -13,18 +16,6 @@ h1 {
 .weather-app {
   padding: 20px;
   border: 1px solid pink;
-}
-.wind {
-  background-color: #000;
-  color: #fff;
-  opacity: 0.5;
-  width: 150px;
-  height: 150px;
-  border-radius: 30px;
-  text-align: center;
-  line-height: 25px;
-  padding-left: 5px;
-  display: inline-block;
 }
 .Weather .search-input {
   background: #f9f7fe;
@@ -42,19 +33,7 @@ h1 {
   margin-top: 40px;
   padding-bottom: 30px;
 }
-.temp {
-  background-color: rgba(0, 0, 0, 0.5);
-  color: #fff;
-  width: 150px;
-  height: 150px;
-  border-radius: 30px;
-  text-align: center;
-  line-height: 25px;
-  padding-right: 5px;
-  float: right;
-}
-.wrapper {
-  padding: 2rem 2rem;
+.day {
   text-align: center;
 }
 

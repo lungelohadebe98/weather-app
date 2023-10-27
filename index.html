@@ -11,12 +11,30 @@
       crossorigin="anonymous"
     />
     <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
-    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
   </head>
   <body>
     <div class="container">
       <div class="weather-app-wrapper">
         <div class="weather-app">
+          <form>
+            <div class="row">
+              <div class="col-9">
+                <input
+                  type="search"
+                  placeholder="Enter a city.."
+                  class="form-control search-input"
+                />
+              </div>
+              <div class="col-3 p-0">
+                <input
+                  type="submit"
+                  class="btn btn-primary w-100"
+                  value="Search"
+                />
+              </div>
+            </div>
+          </form>
           <h1 id="city">Johannesburg</h1>
           <div>
             <ul id="details">
@@ -29,11 +47,7 @@
             <div class="row">
               <div class="col-2">
                 <div class="day">Today</div>
-                <img
-                  src="http://shecodes-assets.s3.amazonaws.com/api/weather/icons/clear-sky-day.png"
-                  alt="weather-icon"
-                  id="icon"
-                />
+                <i class="wi wi-day-sunny"></i>
               </div>
 
               <div class="col-2">

@@ -19,7 +19,7 @@
     <div class="container">
       <div class="weather-app-wrapper">
         <div class="weather-app">
-          <form>
+          <form class="search-form" id="search-form">
             <div class="row">
               <div class="col-9">
                 <input
@@ -33,6 +33,7 @@
                   type="submit"
                   class="btn btn-primary w-100"
                   value="Search"
+                  id="city-input"
                 />
               </div>
             </div>
@@ -42,10 +43,9 @@
             <ul id="details">
               <li id="temperature">27°</li>
               <li id="description">Mostly Sunny</li>
-              <li id="level">H:27° L:11°</li>
+              <li id="wind">Wind: 21km/h</li>
             </ul>
           </div>
-          <div class="wind">Wind: 21km/h</div>
           <div class="Precipitation">Precipitation: 0mm</div>
           <br />
           <div class="container">
